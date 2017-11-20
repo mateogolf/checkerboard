@@ -26,6 +26,9 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.board{
+  margin:10px;
+}
 .box{
   width:25px;
   height: 25px;
@@ -39,4 +42,10 @@
   width:25px;
   height: 25px;
   background-color: black;
+}
+.row{
+  margin: 0px;
+  padding:0px;
+  display: flex;
+  flex-direction: row;
 }

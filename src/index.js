@@ -18,5 +18,5 @@ while(!sizeStr || sizeStr.length===0){
 console.log(size)
 
 ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Checkerboard size={size} />, document.getElementById('root'));
+ReactDOM.render(<Checkerboard size={size} />, document.getElementById('board'));
 registerServiceWorker();
